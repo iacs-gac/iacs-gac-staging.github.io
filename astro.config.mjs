@@ -15,7 +15,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // https://astro.build/config
 export default defineConfig({
 	// Astro uses this full URL to generate your sitemap and canonical URLs in your final build
-	site: 'iacs-gac-staging.github.io',
+	site: 'https://iacs-gac-staging.github.io',
 	base: '/iacs-gac-staging.github.io',
 
 	output: 'static',
